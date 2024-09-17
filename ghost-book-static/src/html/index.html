@@ -41,31 +41,7 @@
                                 <span>搜索</span>
                             </a>
                         </div>
-                        <div class="site-userinfo-container">
-                            <div class="avatar-box">
-                                <a href="javascript:void(0);">
-                                    <img src="/images/avatar.jpg" alt="" />
-                                </a>
-                            </div>
-                            <div class="site-meta">
-                                <a href="javascript:void(0);">ghost book</a>
-                                <p>这里是副标题</p>
-                            </div>
-                            <div class="site-count">
-                                <div class="count-item">
-                                    <span class="layui-badge layui-bg-cyan">文章</span
-                                    ><span class="layui-badge layui-bg-blue">23</span>
-                                </div>
-                                <div class="count-item">
-                                    <span class="layui-badge layui-bg-cyan">标签</span
-                                    ><span class="layui-badge layui-bg-blue">23</span>
-                                </div>
-                                <div class="count-item">
-                                    <span class="layui-badge layui-bg-cyan">分类</span
-                                    ><span class="layui-badge layui-bg-blue">23</span>
-                                </div>
-                            </div>
-                        </div>
+                        @@include('site-userinfo.html')
                     </div>
                     <div class="layui-col-md9 article-container">
                         <div class="article-list">
@@ -193,13 +169,7 @@
                 </div>
             </div>
         </div>
-        <div class="layui-row">
-            <div class="layui-col-md12 footer">
-                <div class="footer-wrapper">
-                    <div class="copyright">©2016 - 2024 By 潼关路边的一只野鬼</div>
-                </div>
-            </div>
-        </div>
+        @@include('footer.html')
         <script src="/libs/jquery/jquery-2.2.4.min.js"></script>
         <script src="/libs/layui-2.9.16/layui.js"></script>
         <script src="/js/common.js"></script>
