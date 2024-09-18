@@ -157,6 +157,7 @@ exports.watch = watchHandler
 
 exports.default = series(
     cleanHandler,
-    parallel(sassHandler, jsHandler, htmlHandler, imageHandler, libsHandler),
+    // parallel(sassHandler, jsHandler, htmlHandler, imageHandler, libsHandler),
+    parallel(sassHandler, jsHandler, htmlHandler),
     parallel(watchHandler, serverHandler)
 )

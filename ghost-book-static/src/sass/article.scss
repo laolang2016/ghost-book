@@ -69,32 +69,88 @@
 
         .post-note {
             margin-bottom: 20px;
-            border: 1px solid #eee;
-            padding: 15px 15px 15px 40px;
-            border-left-width: 5px;
+            border: 1px solid rgb(238, 238, 238);
+
+            .post-note-title {
+                height: 24px;
+                line-height: 24px;
+                padding: 5px;
+                i {
+                    margin-right: 5px;
+                }
+            }
+
+            .post-note-content {
+                padding: 20px 10px;
+            }
 
             &.default {
-                border-left-color: #777;
+                border-color: rgb(119, 119, 119);
+                .post-note-title {
+                    background-color: rgba(119, 119, 119, 0.1);
+                    i {
+                        color: rgb(119, 119, 119);
+                    }
+                }
             }
 
             &.primary {
-                border-left-color: #6f42c1;
+                border-color: rgb(111, 66, 193);
+                .post-note-title {
+                    background-color: rgba(111, 66, 193, 0.1);
+                    i {
+                        color: rgb(111, 66, 193);
+                    }
+                }
             }
 
             &.success {
-                border-left-color: #5cbb5c;
+                border-color: rgb(92, 187, 92);
+                .post-note-title {
+                    background-color: rgba(92, 187, 92, 0.1);
+                    i {
+                        color: rgb(92, 187, 92);
+                    }
+                }
             }
 
             &.info {
-                border-left-color: #428bca;
+                border-color: rgb(66, 139, 202);
+                .post-note-title {
+                    background-color: rgba(66, 139, 202, 0.1);
+                    i {
+                        color: rgb(66, 139, 202);
+                    }
+                }
             }
 
             &.warning {
-                border-left-color: #f0ad4e;
+                border-color: rgb(240, 173, 78);
+                .post-note-title {
+                    background-color: rgba(240, 173, 78, 0.1);
+                    i {
+                        color: rgb(240, 173, 78);
+                    }
+                }
             }
 
             &.danger {
-                border-left-color: #d9534f;
+                border-color: rgb(217, 83, 79);
+                .post-note-title {
+                    background-color: rgba(217, 83, 79, 0.1);
+                    i {
+                        color: rgb(217, 83, 79);
+                    }
+                }
+            }
+        }
+
+        .post-quote {
+            background-color: #ecf7fe;
+            border-left: 3px solid rgb(73, 177, 245);
+            padding: 12px 15px;
+            p {
+                margin: 0;
             }
         }
 
@@ -137,9 +193,12 @@
         position: relative;
         .item {
             font-size: 14px;
+            margin-bottom: 10px;
+            line-height: 24px;
             .title {
                 color: #49b1f5;
                 margin-right: 5px;
+                border: none;
                 &:last-child {
                     margin-right: 10px;
                 }
