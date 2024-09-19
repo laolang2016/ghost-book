@@ -1,2 +1,0 @@
-(()=>{var r={672:()=>{$((()=>{window.Prism=window.Prism||{},window.Prism.manual=!1}))},909:()=>{$((()=>{console.log("ghost book")}))}},o={};function e(t){var n=o[t];if(void 0!==n)return n.exports;var s=o[t]={exports:{}};return r[t](s,s.exports,e),s.exports}e.n=r=>{var o=r&&r.__esModule?()=>r.default:()=>r;return e.d(o,{a:o}),o},e.d=(r,o)=>{for(var t in o)e.o(o,t)&&!e.o(r,t)&&Object.defineProperty(r,t,{enumerable:!0,get:o[t]})},e.o=(r,o)=>Object.prototype.hasOwnProperty.call(r,o),(()=>{"use strict";e(909),e(672)})()})();
-//# sourceMappingURL=article.js.map
