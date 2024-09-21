@@ -2,7 +2,6 @@ const moduleConfig = require('./webpack.module')
 
 // Node.js的核心模块，专门用来处理文件路径
 const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
