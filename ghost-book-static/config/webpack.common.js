@@ -31,6 +31,12 @@ module.exports = {
         common: path.resolve(__dirname, '../src/build/common.js'),
         ...moduleConfig.entry
     },
+    // 路径别名
+    resolve: {
+        alias: {
+            '@': path.resolve(__dirname, '../src')
+        }
+    },
     // 输出
     output: {
         // path: 文件输出目录，必须是绝对路径
